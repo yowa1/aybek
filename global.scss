@@ -1,0 +1,95 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+@media screen and (max-width: 320px) {
+  body {
+    background: rgb(25, 62, 31);
+  }
+  .github-logo {
+    background: black;
+
+    img {
+      width: 40px;
+      border-radius: 50%;
+      background-color: white;
+      position: absolute;
+    }
+  }
+
+  .github-color {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    display: flex;
+    gap: 20px;
+    li:nth-child(1){
+      width: 50px;
+      height: 50px;
+
+      border-radius: 50%;
+      background-color: red;
+    }
+    li:nth-child(2){
+      width: 50px;
+      height: 50px;
+
+      border-radius: 50%;
+      background-color: blue;
+    }
+    li:nth-child(3){
+      width: 50px;
+      height: 50px;
+
+      border-radius: 50%;
+      background-color: yellow;
+    }
+    li:nth-child(1):active{
+      width: 50px;
+      height: 50px;
+
+      border-radius: 50%;
+      background-color: red;
+    }
+    li:nth-child(2):active{
+      width: 50px;
+      height: 50px;
+
+      border-radius: 50%;
+      background-color: blue;
+    }
+    li:nth-child(3):active{
+      width: 50px;
+      height: 50px;
+
+      border-radius: 50%;
+      background-color: yellow;
+    }
+  }
+
+  .github-input {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    input {
+      width: 200px;
+      height: 20px;
+      background-color: black;
+      border: none;
+      border-radius: 15px;
+      padding: 5px;
+    }
+  }
+  button {
+    position: absolute;
+    left: 25%;
+    top: 155%;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+  }
+}
